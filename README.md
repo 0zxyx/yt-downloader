@@ -7,4 +7,5 @@ sudo apt-get install ffmpeg
 
 
 # For Windows
-https://ffmpeg.org/download.html#build-windows
+https://ffmpeg.org/download.html#build-windows <br/>
+https://www.python.org/downloads/

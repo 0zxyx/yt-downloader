@@ -11,4 +11,4 @@ https://ffmpeg.org/download.html#build-windows <br/>
 https://github.com/BtbN/FFmpeg-Builds/releases  <br/>
 https://www.gyan.dev/ffmpeg/builds/  <br/>
 https://www.python.org/downloads/ <br />
-setx PATH "%PATH%;C:\Users\%username%\AppData\Local\Programs\Python\"
+setx PATH %PATH%;C:\Users\%username%\AppData\Local\Programs\Python\

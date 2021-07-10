@@ -13,6 +13,6 @@ setx PATH "%PATH%;C:\Users\%username%\AppData\Local\Programs\Python\" /M <br/>
 pip3 install youtube_dl <br/>
 
 **additional links to download ffmpeg <br/>**
-[Btbn](https://github.com/BtbN/FFmpeg-Builds/releases)  <br/>
+[BtbN](https://github.com/BtbN/FFmpeg-Builds/releases)  <br/>
 [gyan](https://www.gyan.dev/ffmpeg/builds/)  <br/>
 

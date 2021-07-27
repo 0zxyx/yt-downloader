@@ -3,9 +3,12 @@ import youtube_dl
 
 links = open("links.txt", "rb")
 
+count=0
 for l in links.readlines():
     link = l.rstrip()
     link = l.decode()
+    count +=1
+    print("\n" +str(count) + " Downloading: " +  link)
     data = {
             'format': 'bestaudio/best',
             'postprocessors': [{
@@ -14,6 +17,8 @@ for l in links.readlines():
                 'preferredquality': '128',
                 }],
             }
-    with youtube_dl.YoutubeDL(data) as yt:
-        yt.download([link])
-
+    try:
+        with youtube_dl.YoutubeDL(data) as yt:
+            yt.download([link])
+    except:
+        print("\n"  "We Couldn't Download: " + link) 
